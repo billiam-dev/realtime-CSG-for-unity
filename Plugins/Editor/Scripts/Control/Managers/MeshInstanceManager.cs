@@ -1,5 +1,4 @@
 //#define SHOW_GENERATED_MESHES
-using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,9 +7,6 @@ using RealtimeCSG;
 using RealtimeCSG.Foundation;
 using RealtimeCSG.Components;
 using UnityEditor.SceneManagement;
-#if UNITY_2018_3_OR_NEWER
-
-#endif
 
 namespace InternalRealtimeCSG
 {
